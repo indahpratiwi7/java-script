@@ -1,0 +1,12 @@
+Public class Lagu {
+    private string band;
+    private string judul;
+    public void Isiparam (string judul,string band) {
+        this.judul = judul;
+        this.band = band;
+    } 
+public void cetakKeLayar(){
+    if (judul==null && band==null) return;
+System.out.println("Judul:" +judul+"\nBand:")
+}
+}
